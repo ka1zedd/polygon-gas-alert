@@ -43,11 +43,8 @@ def send_telegram_message(message):
     response = requests.post(
         url,
         data=data,
-        timeout=10,
-        proxies={
-            "http": "socks5://127.0.0.1:10808",
-            "https": "socks5://127.0.0.1:10808"
-        }
+        timeout=10
+       
     )
 
     response.raise_for_status()
