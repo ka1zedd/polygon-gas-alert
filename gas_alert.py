@@ -5,7 +5,7 @@ import requests
 POLYGON_RPC = "https://polygon-bor-rpc.publicnode.com"
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-GAS_LIMIT_GWEI = 350
+GAS_LIMIT_GWEI = 150
 CHECK_INTERVAL = 30  
 
 def get_gas_price(): 
